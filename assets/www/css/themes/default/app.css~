@@ -1,0 +1,5 @@
+@-webkit-keyframes animate-bot{from{margin-top:-120px;} 50%{margin-top:-110px;} to{margin-top:-120px;}}@-moz-keyframes animate-bot{from{margin-top:-120px;} 50%{margin-top:-110px;} to{margin-top:-120px;}}@-ms-keyframes animate-bot{from{margin-top:-120px;} 50%{margin-top:-110px;} to{margin-top:-120px;}}@-o-keyframes animate-bot{from{margin-top:-120px;} 50%{margin-top:-110px;} to{margin-top:-120px;}}.animate-bot-key from{margin-top:-120px;}
+.prueba {
+-webkit-animation:animate-bot 3s ease-in-out infinite;-moz-animation:animate-bot 3s ease-in-out infinite;-ms-animation:animate-bot 3s ease-in-out infinite;-o-animation:animate-bot 3s ease-in-out infinite;animation:animate-bot 3s ease-in-out infinite;
+}
+
