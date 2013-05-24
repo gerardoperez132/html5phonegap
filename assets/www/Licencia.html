@@ -22,38 +22,51 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile-1.3.0.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/themes/default/ejemplo3.css" />
+        <link rel="stylesheet" type="text/css" href="css/themes/default/app.css" />
         <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.sidr.light.css" />
         <title>Taller Desarrollo Movil</title>
     </head>
-    <body onload="init()">
+    <body>
        <div data-role="page" id="page1">
 <!-- Header -->
     <div data-role="header">
-        
-        <a data-role="button"  href="index.html" data-icon="home" data-iconpos="left"
+        <a data-role="button"  href="info.html" data-icon="info" data-iconpos="left"
         class="ui-btn-right">
-            Home
+            Info
         </a>
-        
         <h5>
-            Constitución de Venezuela
+            Desarrollo Multiplataforma con Html5 + Phonegap
         </h5>
-        <!-- /navbar -->
-            <div data-role="navbar">
-                <ul>
-                     <li><a href="ejemplos.html">Ejemplo1</a></li>
-                     <li><a href="ejemplos2.html">Ejemplo2</a></li>
-                     <li><a href="ejemplos3.html" class="ui-btn-active ui-state-persist">Ejemplo3</a></li>
-                </ul>
-             </div>
-             <!-- /navbar -->
     </div>
     <!-- Header -->
-    Decripción
-    <a href="javascript:location.reload()" data-role="button">Ver Ejemplo</a>
-  
-    <canvas id="canvas" width="500" height="500"></canvas>
+<section>
+<div class="ui-grid-a">
+    <div class="ui-block-a">HTML5</div>
+</div>
+<article>HTML5 es la plataforma ideal para la Web. Tanto si eres un desarrollador de contenido web para móviles como una empresa con unas determinadas necesidades comerciales o un desarrollador de juegos profesional que quiere explorar las posibilidades de la Web como nueva plataforma, HTML5 tiene algo para ti. Elige tu camino.
+    <section>Fuente: <a href="http://www.html5rocks.com/">http://www.html5rocks.com/</a></section>
+</article>
+</section>
+</br>
+<section>
+<div class="ui-grid-b">
+    <div class="ui-block-b">Jquery Mobile</div>
+</div>
+<article>
+Un sistema unificado, basado en HTML5 interfaz de usuario para todas las plataformas de dispositivos móviles más populares, construido en el jQuery sólida como una roca y fundamento jQuery UI. Su código está construido con ligera mejora progresiva, y tiene un diseño flexible, fácilmente temable.
+    <section>Fuente: <a href="http://jquerymobile.com/">http://jquerymobile.com/</a></section>
+</article>
+</section>
+</br>
+<section>
+<div class="ui-grid-c">
+    <div class="ui-block-c">Phonegap</div>
+</div>
+<article>
+PhoneGap es un marco de libre y de código abierto que permite crear aplicaciones móviles utilizando APIs web estándar para las plataformas que le interesan.
+<section>Fuente: <a href="http://phonegap.com/">http://phonegap.com/</a></section>
+</article>
+</section>
 
 
 <div id="sidr">
@@ -74,12 +87,11 @@
 </div>
 <!-- Footer -->
 
-        </div> 
-        <script type="text/javascript" src="js/ejemplo3.js"> </script>  
+        </div>  
         <script type="text/javascript" src="cordova-2.5.0.js"> </script>
+        <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.sidr.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.3.0.min.js"></script>
     </body>
 </html>
